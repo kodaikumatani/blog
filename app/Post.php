@@ -8,7 +8,7 @@ class Post extends Model
 {
 	protected $fillable = [
 		'title',
-	        'body',
+	    'body',
 	];
 	public function getByLimit(int $limit_count = 10)
 	{
