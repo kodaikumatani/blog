@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-        <h1>Blog Name</h1>
+        <h1>Japanese Annual Events</h1>
         <button type=“button” onclick="location.href='/posts/create'">create</button>
         <div class='posts'>
             @foreach ($posts as $post)
