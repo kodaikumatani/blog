@@ -7,14 +7,13 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-        <h1>Blog Name</h1>
-	[<a href='/posts/create'>create</a>]
+        <h1>Japanese Annual Events</h1>
+        <button type=“button” onclick="location.href='/posts/create'">create</button>
         <div class='posts'>
             @foreach ($posts as $post)
                 <div class='post'>
-			<h2 class='title'>
-    				<a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
-			</h2>
+                    <h2 class='title'></h2>
+                    <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
                 </div>
             @endforeach
         </div>
