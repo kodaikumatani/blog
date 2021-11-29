@@ -18,7 +18,7 @@
                 <textarea name="post[body]" placeholder="Body">{{ old('post.body') }}</textarea>
                 <p class="body__error" style="color:red">{{ $errors->first('post.body') }}</p>
             </div>
-            <input type="submit" value="store"/>
+            <input type="submit" value="Store"/>
         </form>
         <div class="back">[<a href="/posts">back</a>]</div>
     </body>
