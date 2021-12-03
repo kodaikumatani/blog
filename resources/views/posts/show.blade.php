@@ -10,6 +10,7 @@
     </head>
     <body>
         <h1 class="title">
+            <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>:
             {{ $post->title }}
         </h1>
         <div class="content">
